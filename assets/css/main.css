@@ -1708,9 +1708,13 @@
 			-moz-column-gap: 2em;
 			-webkit-column-gap: 2em;
 			-ms-column-gap: 2em;
-			column-gap: 2em;
-			text-align: justify;
+			column-gap: 2em;	
 		}
+
+		.content p {		
+			margin-bottom: 0.5em;
+		}
+		
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -2698,7 +2702,7 @@
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 2em;			
 		}
 
 			header.major h2:after {
@@ -3113,7 +3117,7 @@
 			}
 
 			.spotlight .content header.major {
-				margin: 0 0 2em 0;
+				margin: 0 0 1em 0;
 			}
 
 		.spotlight .image {
@@ -3129,6 +3133,20 @@
 				border-radius: 100%;
 				width: 16em;
 			}
+
+		.spotlight .title {
+			display: inline-block;
+		}
+
+			.spotlight .title img {
+				display: block;
+				width: 20em;
+			}
+
+		.spotlight .subtitle {
+			display: block;	
+			text-align: center;
+		}
 
 		@media screen and (max-width: 980px) {
 
@@ -3463,7 +3481,7 @@
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: black;
 		}
 
 		#main blockquote {
@@ -3659,6 +3677,14 @@
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 		}
+
+		#main header.major span:after {
+			background-color: #dddddd;
+			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+		}	
 
 		#main table tbody tr {
 			border-color: #dddddd;
@@ -3874,7 +3900,7 @@
 
 	#biz .statistics h4 {
 		margin: 0.5em 0;
-		color: #ffffff;
+		color: #000000;
 	}
 
 	#biz strong {
