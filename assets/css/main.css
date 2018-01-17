@@ -3830,7 +3830,7 @@
 	}
 
 		#footer > * {
-			width: calc(50% - 3em);
+			width: calc(50% - 3.5em);
 			margin-left: 3em;
 		}
 
