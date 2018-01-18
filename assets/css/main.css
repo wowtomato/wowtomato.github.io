@@ -1712,7 +1712,7 @@
 		}
 
 		.content p {		
-			margin-bottom: 0.5em;
+			margin-bottom: 0.4em;
 		}
 		
 
@@ -1720,7 +1720,7 @@
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
-		letter-spacing: 0.025em;
+		letter-spacing: 0.1em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2545,7 +2545,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 0.65em 0 0;
+				padding: 0 1.3em 0 0;
 			}
 
 				ul.icons li:last-child {
@@ -3102,7 +3102,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0;
 	}
 
 		.spotlight .content {
@@ -3140,7 +3140,7 @@
 
 			.spotlight .title img {
 				display: block;
-				width: 20em;
+				width: 19em;
 			}
 
 		.spotlight .subtitle {
@@ -3191,8 +3191,8 @@
 				.spotlight .image img {
 					width: 12em;
 				}
-
 		}
+
 
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
@@ -3285,7 +3285,7 @@
 
 				#header p {
 					font-size: 1em;
-					letter-spacing: 0;
+					letter-spacing: 0.1em;
 				}
 
 					#header p br {
@@ -3830,7 +3830,7 @@
 	}
 
 		#footer > * {
-			width: calc(50% - 3.5em);
+			width: calc(50% - 3.7em);
 			margin-left: 3em;
 		}
 
@@ -3904,13 +3904,14 @@
 	}
 
 	#biz strong {
-		letter-spacing: 0.05em;
+		letter-spacing: 0.12em;
 		margin-top: 0.25em;
 		font-size: 1.6em;
 	}
 
 	#biz p {
 		font-size: 0.9em;
+		letter-spacing: 0.1em;
 		margin: 0;
 	}
 
