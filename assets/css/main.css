@@ -2227,14 +2227,17 @@
 
 	::-webkit-input-placeholder {
 		opacity: 1.0;
+		letter-spacing: 0.1em;
 	}
 
 	:-moz-placeholder {
 		opacity: 1.0;
+		letter-spacing: 0.1em;
 	}
 
 	::-moz-placeholder {
 		opacity: 1.0;
+		letter-spacing: 0.1em;
 	}
 
 	:-ms-input-placeholder {
@@ -3624,6 +3627,7 @@
 
 		#main ::-webkit-input-placeholder {
 			color: rgba(99, 99, 99, 0.25) !important;
+			
 		}
 
 		#main :-moz-placeholder {
