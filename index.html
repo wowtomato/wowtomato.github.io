@@ -1,6 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112484391-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112484391-1');
+		</script>
+
 		<title>哇頭沒頭 WOW_TOMATO</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="哈囉，我是哇頭沒頭，也可以叫我小茄，是名龍控、貓控。致力於推廣遊戲，有寫評論文或製作推坑影片及實況遊戲。可以在 Twitch 實況、YouTube 影片及遊戲評論文中發現我的足跡。">
@@ -124,7 +134,7 @@
 								<footer class="major">
 									<ul class="actions">
 										<li><a href="https://www.youtube.com/channel/UC9h44I-aXBEKbJwI3r9QbLw?sub_confirmation=1" target="_blank" class="button special">訂閱頻道</a></li>
-									
+										<li id="donate"><a href="donate.html" data-poptrox="iframe,1024x700" class="button">贊助我</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -167,6 +177,11 @@
 							
 							<h2 style="color:#000000">若需詳談合作邀約，請使用電子郵件或表單與我聯繫</h2>
 							<p style="color:#000000;font-size:1.5em; letter-spacing:0.08em;margin-bottom:1.2em;">E-mail: <a style="color:#000000;border-bottom:dotted 1px rgba(0,0,0,0.5);" href="mailto:wowtomatowo@gmail.com">wowtomatowo@gmail.com</a></h2>
+							<!-- <ul class="icons">
+								<li><a href=""><span class="lable icon"><img src="images/logo_allpay.png"></span></a></li>
+								<li><a href=""><span class="lable icon"><img src="images/logo_paypal.png"></span></a></li>
+								<li><a href=""><span class="lable icon"><img src="images/logo_paypalme.png"></span></a></li>
+							</ul> -->
 							<!-- <dl class="alt" >
 								<dt style="color:#000000">E-mail</dt>
 								<dd><a style="color:#000000" href="mailto:wowtomatowo@gmail.com">wowtomatowo@gmail.com</a></dd>
@@ -214,17 +229,14 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112484391-1"></script>
+			<!-- Poptrox -->
 			<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-112484391-1');
+				var foo = $('#donate');
+				foo.poptrox();
 			</script>
 
 			<!-- Typewriter Effects -->
