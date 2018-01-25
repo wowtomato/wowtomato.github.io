@@ -3960,10 +3960,14 @@
 		display: inline-block;
 		list-style: none;
 		position: fixed;
-		right: 25px;
-		bottom: 5px;
+		right: 20px;
+		bottom: 0;
 		z-index: 100;
 		opacity: 0.75;
 		color: #9bb2e1
 	}
+}
+
+.poptrox-popup {
+	-webkit-overflow-scrolling: touch;
 }
