@@ -88,15 +88,15 @@
 										<tbody>
 											<tr>
 												<td><a href="http://condorleague.tv/">CoNDOR</a> 主辦<br>Crypf of NecroDancer</td>
-												<td><a href="https://www.facebook.com/tomatowo/posts/1278588795543336:0">CoNUiT 18</a><br><a href="https://www.facebook.com/tomatowo/posts/1300736633328552:0">Season 5</a><br><a href="https://www.facebook.com/tomatowo/posts/1357392464329635:0">MEMEDOR</a></td>
+												<td><a href="https://www.facebook.com/tomatowo/posts/1278588795543336:0">CoNUiT 18</a>&nbsp參賽者<br><a href="https://www.facebook.com/tomatowo/posts/1300736633328552:0">Season 5</a>&nbsp參賽者 / 主播 / 賽評<br><a href="https://www.facebook.com/tomatowo/posts/1357392464329635:0">MEMEDOR</a>&nbsp參賽者</td>
 											</tr>
 											<tr>
-												<td>Rockman 接力實況活動</td>
-												<td><a href="https://sites.google.com/site/rockmanchronicles/zh/RC2017">Rockman Chronicles - 2017 - I wanna be the Rockman!!</a><br><a href="https://rockmanneverdies.appspot.com/">Rockman NeverDies 2017</a></td>
+												<td>Rockman<br>接力實況活動</td>
+												<td><a href="https://sites.google.com/site/rockmanchronicles/zh/RC2017">Rockman Chronicles - 2017 - I wanna be the Rockman!!</a>&nbsp參賽者<br><a href="https://rockmanneverdies.appspot.com/">Rockman NeverDies 2017</a>&nbsp參賽者</td>
 											</tr>
 											<tr>
 												<td>Twitch</td>
-												<td>106/08/07 及 106/10/31 榮登首頁<br>受邀至電玩展的 Twitch 實況區及社群小聚</td>
+												<td>106/08/07、106/10/31 榮登首頁<br>107/01/28 受邀至電玩展的 Twitch 實況區及社群小聚</td>
 											</tr>
 											<tr>
 												<td>PikoLive</td>
@@ -104,11 +104,11 @@
 											</tr>
 											<tr>
 												<td>巴哈姆特</td>
-												<td>特約影音編輯</td>
+												<td>特約影音編輯者</td>
 											</tr>
 											<tr>
 												<td>SteamHQ</td>
-												<td>文案編輯者之一</td>
+												<td>文案編輯者</td>
 											</tr>
 										</tbody>
 									</table>
@@ -279,10 +279,7 @@
 				    $("div.table-wrapper").slice(0).hide();
 				    $("#loadmore").on('click', function (e) {
 				        e.preventDefault();
-				        $("div.table-wrapper").slice(0, 1).slideDown();
-				        if ($("div.table-wrapper:hidden").length == 0) {
-				            $("#loadmore").fadeOut('slow');
-				        }
+				        $("div.table-wrapper").slice(0, 1).slideToggle();
 				    });
 				});
 			</script>
